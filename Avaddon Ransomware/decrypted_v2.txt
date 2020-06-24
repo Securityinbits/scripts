@@ -1,0 +1,83 @@
+SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+EnableLinkedConnections
+Software\Microsoft\Windows\CurrentVersion\Run
+EnableLUA
+ConsentPromptBehaviorAdmin
+SYSTEMDRIVE
+PROGRAMFILES(x86)
+USERPROFILE
+ProgramData
+Program Files
+ALLUSERSPROFILE
+AppData
+PUBLIC
+TMP
+Tor Browser
+Windows
+\Windows
+\Program Files
+\Users\All Users
+\AppData
+\Microsoft
+wmic.exe SHADOWCOPY /nointeractive
+wbadmin DELETE SYSTEMSTATEBACKUP
+wbadmin DELETE SYSTEMSTATEBACKUP -deleteOldest
+bcdedit.exe /set {default} recoveryenabled No
+bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures
+vssadmin.exe Delete Shadows /All /Quiet
+Elevation:Administrator!new:
+{3E5FC7F9-9A51-4367-9063-A120244FBEC7}
+{6EDD6D74-C007-4E75-B76A-E5740995E24C}
+powershell.exe
+-readme.html
+bckgrd.bmp
+All your files has been encrypted
+
+Instruction 
+HOMEDRIVE
+HOMEPATH
+Control Panel\Desktop
+WallPaper
+WallpaperStyle
+{{id}}
+update
+{ACFC17C7-C5E2-4989-BF03-2ECE0B76CEC2}
+\Program Files\Microsoft\Exchange Server
+\Program Files (x86)\Microsoft\Exchange Server
+\Program Files\Microsoft SQL Server
+\Program Files (x86)\Microsoft SQL Server
+WinInet
+HTTP/1.1
+GET
+api.myip.com
+http://
+https://
+VMware
+VBOX
+HARDWARE\DESCRIPTION\System\BIOS
+SystemManufacturer
+HARDWARE\DEVICEMAP\Scsi\Scsi Port 2\Scsi Bus 0\Target Id 0\Logical Unit Id 0
+Identifier
+SYSTEM\CurrentControlSet\Enum\SCSI\Disk&Ven_VMware_&Prod_VMware_Virtual_S
+SYSTEM\CurrentControlSet\Control\VirtualDeviceDrivers
+HARDWARE\DESCRIPTION\System
+SystemBiosVersion
+HARDWARE\DEVICEMAP\Scsi\Scsi Port0\Scsi Bus 0\Target Id 0\Logical Unit Id 0
+SYSTEM\CurrentControlSet\Enum\SCSI\Disk&Ven_VBOX&Prod_HARDDISK
+ROOT\CIMV2
+WQL
+SELECT * FROM Win32_PerfFormattedData_PerfProc_Process
+Name
+IDProcess
+PercentProcessorTime
+svchost
+csrss
+services
+lsass
+winlogon
+spoolsv
+explorer
+RuntimeBroker
+System
+powershell
+wscript
