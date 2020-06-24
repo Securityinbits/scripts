@@ -19,8 +19,9 @@ Avaddon Ransomware v2
 - decrypted_v2.txt - decrypted strings
 
 Some more details available in below tweets:
-- https://twitter.com/Securityinbits/status/1270274719711768576
-- https://twitter.com/Securityinbits/status/1271065316903120902
+- https://twitter.com/Securityinbits/status/1270274719711768576 -  9 Jun, 2020
+- https://twitter.com/Securityinbits/status/1271065316903120902 - 11 Jun, 2020
+- https://twitter.com/Securityinbits/status/1275909295100489730 - 25 Jun, 2020
 
 License
 ----
